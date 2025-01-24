@@ -26,7 +26,6 @@ void setup() {
   }
 
   // Send the samples to the serial port
-  Serial.println("Y");
   for (int i = 0; i < N; i++) {
     Serial.println(samples[i]);
   }
