@@ -6,8 +6,8 @@ This repository contains Arduino and Processing codes that enable multiple Ardui
 
 ## Features
 - **Multi-Arduino Connectivity**: Seamlessly connect and manage multiple Arduino boards.
-- **Centralized Data Transfer**: Transfer all collected signals to a single laptop.
-- **Integration with Processing**: Use Processing for data storing as a txt file.
+- **Centralised Data Transfer**: Transfer all collected signals to a single laptop.
+- **Integration with Processing**: Use Processing for data storing as a text file.
 
 ---
 
@@ -18,7 +18,7 @@ This repository contains Arduino and Processing codes that enable multiple Ardui
 
 ### Software:
 - [Arduino IDE](https://www.arduino.cc/en/software) (for uploading sketches to Arduino boards).
-- [Processing IDE](https://processing.org/download/) (for running visualization or data-handling scripts).
+- [Processing IDE](https://processing.org/download/) (for running visualisation or data-handling scripts).
 
 ---
 
@@ -36,15 +36,15 @@ This repository contains Arduino and Processing codes that enable multiple Ardui
 
 ## Usage
 1. Connect all Arduino boards to the laptop using USB cables.
-2. Start the Processing script to initialize communication with all Arduino boards.
-3. Click on the "Start" button, and wait for 15 sec till the storing is finished. 
+2. Start the Processing script to initialise communication with all Arduino boards.
+3. Click on the "Start" button, and wait for 15 seconds till the storage is finished. 
 4. All data will be stored as text files. 
 
 ---
 ## FAQ
 
 1. **Why 15 sec?**
-   This is what the Arduino UNO R4 is capable of storing with a sampling frequency of 250Hz. If you are using older version with smaller dynamic memory you might need to change it, in that case make sure to update the following:
+   This is what the Arduino UNO R4 is capable of storing with a sampling frequency of 250Hz. If you are using an older version with smaller dynamic memory, you might need to change it. In that case, make sure to update the following:
 
    - In the Arduino sketch:
      ```cpp
@@ -68,6 +68,6 @@ This repository contains Arduino and Processing codes that enable multiple Ardui
    in the pde file adjust:
    
    ```java
-  // Initialize the arrays
-  int numPorts = 3; // Adjust if you want more or fewer Arduinos
-  ```
+   //Initialise the arrays
+   int numPorts = 3; // Adjust if you want more or fewer Arduinos
+   ```
